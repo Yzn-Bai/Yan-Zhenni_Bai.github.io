@@ -53,7 +53,10 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
 
 - Horizontal position of CAV DLs
 
+  ![]("images/无限速区别时，专用道设置在边缘时与设置在中间时的一小时流量差.png")
 
+  <img src="images/有限速时，专用道位置1-2流量差.png" alt="First Image" style="width: 45%; display:inline-block;">
+  <img src="images/有限速时，专用道位置1-3流量差.png" alt="Second Image" style="width: 45%; display:inline-block;">
 
 - 
 
