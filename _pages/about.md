@@ -7,27 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my homepage 👋 I’m Yanzhenni Bai, an M.Eng. student in Transportation Engineering at Beijing University of Technology. My research interests focus on mixed traffic flow with connected and autonomous vehicles (CAVs), dedicated lane management, and data-driven traffic modeling and reinforcement learning. I am passionate about using quantitative methods and simulation to improve the efficiency and safety of urban road networks.
+Hi! Welcome to my homepage 👋 I’m Yan-Zhenni Bai, an M.Eng. student in Transportation at Beijing University of Technology. My current research focuses on mixed traffic flow with connected and autonomous vehicles, dedicated lane management, and reinforcement learning for dynamic control and optimization. I am passionate about using quantitative methods and simulation to improve the efficiency and safety of highway and urban road networks.
 
-A data-driven personal website
+Education
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- M.S., Transportation, Beijing University of Technology, Sep. 2023 - present
+- B.S., Transportation, Inner Mongolia University, Sep. 2018-Jul. 2022
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
+Research Interests
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- Connected and autonomous vehicles and their integration into large-scale transportation systems
+- Data-driven modeling, generative AI and reinforcement learning for optimization, prediction and control in intelligent transportation systems
+- Mixed traffic flow modeling using traffic flow theory(car-following model, cellular au-tomata, cell-transmission model)
+
+Research Highlight
+======
+  Connected and automated vehicles (CAVs) are expected to become a dominant component of future road traffic, offering precise car-following, platooning, and vehicle–infrastructure cooperation that can significantly enhance capacity, stability, and safety in mixed traffic. Dedicated lanes (DLs) for CAVs have therefore emerged as a key management strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV capabilities. By aggregating CAVs into homogeneous streams with exclusive right-of-way, CAV DLs can increase effective roadway capacity, stabilize traffic flow, and provide a safer operating environment with fewer disturbances from imperfect human driving. In addition, CAV DLs create a favorable platform for deploying advanced control strategies and vehicle–infrastructure coordination, because traffic conditions within these lanes are more predictable and easier to model.
+  In this context, the cell transmission model (CTM) provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost compared to full microscopic simulations. Its lane-level extension allows explicit representation of CAV dedicated lanes and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways.
+- Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environments
+  This study constructs a fundamental diagram model that reflects both heterogeneous and homogeneous traffic flows by distinguishing between different car-following modes, with considerations for headway and reaction times. The model accurately captures the dynamic characteristics of mixed traffic flows by accounting for the differences between Connected and Automated Vehicles (CAVs) and Human-Driven Vehicles (HVs). To simulate lane-changing behavior for both vehicle types, this study also incorporates a logit model, which takes into account the traffic occupancy rate and other latent factors influencing lane-changing decisions. Additionally, the model considers the capacity drop phenomenon, where the flow rate decreases and impacts overall capacity when traffic density exceeds a critical threshold. Through these enhancements, the traditional Cell Transmission Model (CTM) is modified to better capture the unique dynamics introduced by CAVs and Dedicated Lanes (DLs), thereby improving the simulation capability of CAV DL performance in mixed traffic environments.
+  
+  Well-designed CAV DL configurations such as number, length, and position are therefore crucial for realizing system-level benefits from CAV technologies, ensuring that the substantial investments in automation and connectivity translate into tangible improvements in efficiency, reliability, and safety at the corridor and network levels.
+  
+- Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
+  However, in the real world CAV penetration is highly uncertain, traffic demand fluctuates across time and space, and infrastructure budgets are constrained. Under such conditions, naively deploying or statically managing CAV DLs can even waste capacity or worsen congestion if the number, position, or length of DLs is not matched to prevailing traffic states. This creates an urgent need for mesoscale models and intelligent control methods that (i) can efficiently evaluate CAV DL configurations under heterogeneous mixed-traffic conditions, and (ii) can further adapt DL allocation in real time as demand and CAV penetration evolve.
 
 Site-wide configuration
 ------
