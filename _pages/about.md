@@ -79,12 +79,12 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   
 - Longitudinal position of CAV DLs
 
- <div style="text-align: center;">
+<div style="text-align: center;">
   <img src="images/d=2000,p=0.3,1.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/d=2000,p=0.3,2.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
 
- <div style="text-align: center;">
+<div style="text-align: center;">
   <img src="images/d=2000,p=0.3,3.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/d=2000,p=0.3,4.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
