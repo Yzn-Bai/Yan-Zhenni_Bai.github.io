@@ -49,7 +49,9 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   <img src="images/有无专用道的流量差.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/1b.png" alt="Second Image" style="width: 45%; display:inline-block;">
   
-  ![]("images/fig1c.png")
+  <div style="text-align: center;">
+    <img src="fig1c.png" alt="Image 1" style="width: 45%; display:inline-block;">
+  </div>
 
 - Horizontal position of CAV DLs
 
