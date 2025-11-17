@@ -37,7 +37,8 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
 
   Additionally, the model considers the capacity drop phenomenon, where the flow rate decreases and impacts overall capacity when traffic density exceeds a critical threshold.
 
-  ![](images/基本图2.png) ![](images/接收发送能力.png)
+  <img src="images/基本图2.png" alt="First Image" style="width: 45%; display:inline-block;">
+  <img src="images/接收发送能力.png" alt="Second Image" style="width: 45%; display:inline-block;">
 
   Through these enhancements, the traditional CTM is modified to better capture the unique dynamics introduced by CAVs and DLs, thereby improving the simulation capability of CAV DL performance in mixed traffic environments.
   
