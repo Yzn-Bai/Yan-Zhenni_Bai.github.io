@@ -50,8 +50,13 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
 Awards
 ======
+
 -Master Student Academic Scholarship, Beijing University of Technology
+
 -Science and Technology Innovation Award, Beijing University of Technology
+
 -Excellent Student, Beijing University of Technology
+
 -Undergraduate Academic Scholarship, Inner Mongolia University
+
 -Excellent Student, Inner Mongolia University
