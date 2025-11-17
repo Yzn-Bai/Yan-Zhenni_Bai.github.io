@@ -92,7 +92,8 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
 *Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
 
 ![]("images/TRB海报.png")
-  
+
+
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
 ------
 
@@ -109,18 +110,18 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
   The control problem is framed as a <span style="color:blue; font-weight: bold;">Markov Decision Process (MDP)</span>, where the <span style="color:blue; font-weight: bold;">state space</span> incorporates key factors such as segment-level traffic density and CAV penetration rate, the <span style="color:blue; font-weight: bold;">action space</span> represents the number of DLs, and the <span style="color:blue; font-weight: bold;">reward function</span> is based on improvements in macroscopic traffic efficiency. To ensure training stability and efficiency, an <span style="color:blue; font-weight: bold;">early-stopping mechanism</span> is introduced, helping to balance the trade-off between training time and convergence.
 
-  <img src="reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
-
   <div style="text-align: center;">
+    <img src="reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
+
     <img src="images/line_reward_mean_std_shaded_ok.png" alt="First Image" style="width: 45%; display:inline-block;">
     <img src="images/line_t_end_mean_std_shaded_ok.png" alt="Second Image" style="width: 45%; display:inline-block;">
-  </div>
+    
+    ![]("images/1.png")
 
-   ![]("images/1.png")
+    ![]("images/2.png")
 
-   ![]("images/2.png")
-
-   ![]("images/3.png")
+    ![]("images/3.png")
+    </div>
   
 Awards
 ======
