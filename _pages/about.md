@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "About Me - Yan-Zhenni Bai"
 author_profile: true
 redirect_from: 
   - /about/
@@ -89,9 +89,9 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   <img src="images/d=2000,p=0.3,4.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
 
-  *Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
+*Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
 
-  ![]("images/TRB海报.png")
+![]("images/TRB海报.png")
   
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
 ------
