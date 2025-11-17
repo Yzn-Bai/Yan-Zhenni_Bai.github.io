@@ -41,7 +41,7 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   
   Well-designed CAV DL configurations such as <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are therefore crucial for realizing system-level benefits from CAV technologies, ensuring that the substantial investments in automation and connectivity translate into tangible improvements in efficiency, reliability, and safety at the corridor and network levels.
 
-  Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting
+  *Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
   
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
 ------
