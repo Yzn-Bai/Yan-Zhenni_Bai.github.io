@@ -26,7 +26,7 @@ Research Highlight
   
   <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore emerged as a crucial strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV potential. By forming homogeneous CAV streams with exclusive right-of-way, CAV DLs can increase roadway capacity, stabilize traffic flow, and create a safer operating environment with fewer disturbances from human driving, while also providing a platform for advanced control strategies and vehicle-infrastructure coordination.
 
-  ![]("images/图3 专用道和混合车道示意图.png")
+  ![]("images/3lane.png")
   
   In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost compared to full microscopic simulations. Its lane-level extension allows explicit representation of CAV dedicated lanes and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways.
   
@@ -98,10 +98,30 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
   However, in the real world CAV penetration is highly uncertain, traffic demand fluctuates across time and space, and infrastructure budgets are constrained. Under such conditions, naively deploying or statically managing CAV DLs can even waste capacity or worsen congestion if the number, position, or length of DLs is not matched to prevailing traffic states. This creates an urgent need for mesoscale models and intelligent control methods that can further adapt DL allocation in real time as demand and CAV penetration evolve.
 
+  ![]("images/CTM-RL研究场景(CTS版)(1).png")
+
   The capacity drop phenomenon is more extended which occurs when traffic density exceeds a critical threshold, leading to a reduction in flow capacity. And apply a simplified approach that captures the essential lane-changing behaviors while reducing computational complexity.
+
+  <div style="text-align: center;">
+    <img src="images/强化学习.png" alt="First Image" style="width: 45%; display:inline-block;">
+    <img src="images/supply_receive_together.png" alt="Second Image" style="width: 45%; display:inline-block;">
+  </div>
 
   The control problem is framed as a <span style="color:blue; font-weight: bold;">Markov Decision Process (MDP)</span>, where the <span style="color:blue; font-weight: bold;">state space</span> incorporates key factors such as segment-level traffic density and CAV penetration rate, the <span style="color:blue; font-weight: bold;">action space</span> represents the number of DLs, and the <span style="color:blue; font-weight: bold;">reward function</span> is based on improvements in macroscopic traffic efficiency. To ensure training stability and efficiency, an <span style="color:blue; font-weight: bold;">early-stopping mechanism</span> is introduced, helping to balance the trade-off between training time and convergence.
 
+  <img src="reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
+
+  <div style="text-align: center;">
+    <img src="images/line_reward_mean_std_shaded_ok.png" alt="First Image" style="width: 45%; display:inline-block;">
+    <img src="images/line_t_end_mean_std_shaded_ok.png" alt="Second Image" style="width: 45%; display:inline-block;">
+  </div>
+
+   ![]("images/1.png")
+
+   ![]("images/2.png")
+
+   ![]("images/3.png")
+  
 Awards
 ======
 
