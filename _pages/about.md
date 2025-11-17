@@ -58,9 +58,22 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   <img src="images/有限速时，专用道位置1-2流量差.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/有限速时，专用道位置1-3流量差.png" alt="Second Image" style="width: 45%; display:inline-block;">
 
-- 
+- CAV DL length
+
+  <img src="images/error_line.png" alt="First Image" style="width: 45%; display:inline-block;">
+  <img src="images/d=1500&d=2000.png" alt="Second Image" style="width: 45%; display:inline-block;">
+  
+- Longitudinal position of CAV DLs
+
+  <img src="images/d=2000,p=0.3,1.png" alt="First Image" style="width: 45%; display:inline-block;">
+  <img src="images/d=2000,p=0.3,2.png" alt="Second Image" style="width: 45%; display:inline-block;">
+
+  <img src="images/d=2000,p=0.3,3.png" alt="First Image" style="width: 45%; display:inline-block;">
+  <img src="images/d=2000,p=0.3,4.png" alt="Second Image" style="width: 45%; display:inline-block;">
 
   *Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
+
+  ![]("images/TRB海报.png")
   
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
 ------
