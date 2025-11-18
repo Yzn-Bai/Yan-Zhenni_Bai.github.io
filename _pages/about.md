@@ -1,4 +1,4 @@
----
+<img width="1437" height="330" alt="image" src="https://github.com/user-attachments/assets/57798b69-91df-42b2-89f3-4231746f763a" />---
 permalink: /
 title: "About Me - Yan-Zhenni Bai"
 author_profile: true
@@ -26,7 +26,7 @@ Research Highlight
   
   <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore emerged as a crucial strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV potential. By forming homogeneous CAV streams with exclusive right-of-way, CAV DLs can increase roadway capacity, stabilize traffic flow, and create a safer operating environment with fewer disturbances from human driving, while also providing a platform for advanced control strategies and vehicle-infrastructure coordination.
 
-  ![]("images/3lane.png")
+  ![]("images/3lane.jpg")
   
   In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost compared to full microscopic simulations. Its lane-level extension allows explicit representation of CAV dedicated lanes and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways.
   
@@ -56,13 +56,13 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
   </div>
   
 <div style="text-align: center;">
-  <img src="fig1c.png" alt="Image 1" style="width: 45%; display:inline-block;">
+  <img src="images/fig1c.png" alt="Image 1" style="width: 45%; display:inline-block;">
   </div>
 
 - Horizontal position of CAV DLs
 
 <div style="text-align: center;">
-  <img src="无限速区别时，专用道设置在边缘时与设置在中间时的一小时流量差.png" alt="Image 1" style="width: 45%; display:inline-block;">
+  <img src="images/无限速区别时，专用道设置在边缘时与设置在中间时的一小时流量差.png" alt="Image 1" style="width: 45%; display:inline-block;">
 </div>
 
 <div style="text-align: center;">
@@ -111,7 +111,7 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
   The control problem is framed as a <span style="color:blue; font-weight: bold;">Markov Decision Process (MDP)</span>, where the <span style="color:blue; font-weight: bold;">state space</span> incorporates key factors such as segment-level traffic density and CAV penetration rate, the <span style="color:blue; font-weight: bold;">action space</span> represents the number of DLs, and the <span style="color:blue; font-weight: bold;">reward function</span> is based on improvements in macroscopic traffic efficiency. To ensure training stability and efficiency, an <span style="color:blue; font-weight: bold;">early-stopping mechanism</span> is introduced, helping to balance the trade-off between training time and convergence.
 
   <div style="text-align: center;">
-    <img src="reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
+    <img src="images/reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
 
     <img src="images/line_reward_mean_std_shaded_ok.png" alt="First Image" style="width: 45%; display:inline-block;">
     <img src="images/line_t_end_mean_std_shaded_ok.png" alt="Second Image" style="width: 45%; display:inline-block;">
