@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Mixed traffic flow simulation with a dedicated lane for connected and autonomous vehicles: a cell transmission model approach"
 collection: publications
 category: conferences
