@@ -1,4 +1,4 @@
-<img width="1437" height="330" alt="image" src="https://github.com/user-attachments/assets/57798b69-91df-42b2-89f3-4231746f763a" />---
+---
 permalink: /
 title: "About Me - Yan-Zhenni Bai"
 author_profile: true
