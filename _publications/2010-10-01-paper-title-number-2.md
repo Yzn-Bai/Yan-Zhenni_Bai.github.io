@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 2"
+title: "Experimental Investigation of Car-Following Behavior on Single-Lane Signalized Roads"
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
