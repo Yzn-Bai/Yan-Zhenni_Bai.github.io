@@ -13,8 +13,8 @@ title                    : "Yan-Zhenni Bai"
 title_separator          : "-"
 name                     : &name "Yan-Zhenni Bai"
 description              : &description "Yan-Zhenni Bai's academic portfolio - Transportation Research at Beijing University of Technology"
-url                      : "https://yzn-bai.github.io/Yan-Zhenni-Bai.github.io/"
-baseurl                  : 
+url                      : "https://yzn-bai.github.io"
+baseurl                  : "/Yan-Zhenni_Bai.github.io"
 repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
