@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="/files/Yanzhenni_Bai_CV.pdf"
+<iframe src="../files/Yanzhenni_Bai_CV.pdf"
         width="100%"
         height="800px"
         style="border: none;">
