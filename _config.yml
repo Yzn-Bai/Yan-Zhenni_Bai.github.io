@@ -78,15 +78,6 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Navigation
-header_pages:
-  - publications.md
-  - talks.md
-  - teaching.md
-  - portfolio.md
-  - posts.md
-  - cv.md
-
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
