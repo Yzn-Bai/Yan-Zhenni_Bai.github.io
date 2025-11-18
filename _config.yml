@@ -12,9 +12,8 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Yan-Zhenni Bai"
 title_separator          : "-"
 name                     : &name "Yan-Zhenni Bai"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://yzn-bai.github.io/Yan-Zhenni_Bai.github.io/",
-                         # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+description              : &description "Yan-Zhenni Bai's academic portfolio - Transportation Research at Beijing University of Technology"
+url                      : "https://yzn-bai.github.io/Yan-Zhenni_Bai.github.io/"
 baseurl                  : # "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -78,6 +77,15 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+
+# Navigation
+header_pages:
+  - publications.md
+  - talks.md
+  - teaching.md
+  - portfolio.md
+  - posts.md
+  - cv.md
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -152,7 +160,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
