@@ -1,7 +1,7 @@
 ---
 title: "On the impacts of dedicated lanes for CAVs in mixed traffic: Evaluation using a modified cell transmission model"
 collection: publications
-category: manucrafts
+category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 15 March, 2025
 venue: 'Physica A: Statistical Mechanics and its Applications'
