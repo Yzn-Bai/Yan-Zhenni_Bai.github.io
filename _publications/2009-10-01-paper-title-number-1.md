@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "On the impacts of dedicated lanes for CAVs in mixed traffic: Evaluation using a modified cell transmission model"
 collection: publications
 category: manuscripts
