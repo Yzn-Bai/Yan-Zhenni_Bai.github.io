@@ -26,7 +26,7 @@ Research Highlight
   
   <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore emerged as a crucial strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV potential. By forming homogeneous CAV streams with exclusive right-of-way, CAV DLs can increase roadway capacity, stabilize traffic flow, and create a safer operating environment with fewer disturbances from human driving, while also providing a platform for advanced control strategies and vehicle-infrastructure coordination.
 
-  ![]("images/3lane.jpg")
+  <img src="images/3lane.jpg" alt="TRB Conference Poster" style="max-width: 100%;">
   
   In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost compared to full microscopic simulations. Its lane-level extension allows explicit representation of CAV dedicated lanes and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways.
   
@@ -91,7 +91,7 @@ Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environme
 
 *Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
 
-![]("images/TRB海报.png")
+<img src="images/TRB海报.png" alt="TRB Conference Poster" style="max-width: 100%;">
 
 
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
@@ -99,7 +99,7 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
   However, in the real world CAV penetration is highly uncertain, traffic demand fluctuates across time and space, and infrastructure budgets are constrained. Under such conditions, naively deploying or statically managing CAV DLs can even waste capacity or worsen congestion if the number, position, or length of DLs is not matched to prevailing traffic states. This creates an urgent need for mesoscale models and intelligent control methods that can further adapt DL allocation in real time as demand and CAV penetration evolve.
 
-  ![]("images/CTM-RL研究场景(CTS版)(1).png")
+  <img src="images/CTM-RL研究场景(CTS版)(1).png" alt="TRB Conference Poster" style="max-width: 100%;">
 
   The capacity drop phenomenon is more extended which occurs when traffic density exceeds a critical threshold, leading to a reduction in flow capacity. And apply a simplified approach that captures the essential lane-changing behaviors while reducing computational complexity.
 
@@ -112,15 +112,19 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
   <div style="text-align: center;">
     <img src="images/reward_plot_3D.png" alt="Image 1" style="width: 45%; display:inline-block;">
+    </div>
 
+  <div style="text-align: center;">
     <img src="images/line_reward_mean_std_shaded_ok.png" alt="First Image" style="width: 45%; display:inline-block;">
     <img src="images/line_t_end_mean_std_shaded_ok.png" alt="Second Image" style="width: 45%; display:inline-block;">
+    </div>
     
-    ![]("images/1.png")
+  <div style="text-align: center;">
+    <img src="images/1.png" alt="TRB Conference Poster" style="max-width: 100%;">
 
-    ![]("images/2.png")
+    <img src="images/2.png" alt="TRB Conference Poster" style="max-width: 100%;">
 
-    ![]("images/3.png")
+    <img src="images/3.png" alt="TRB Conference Poster" style="max-width: 100%;">
     </div>
   
 Awards
