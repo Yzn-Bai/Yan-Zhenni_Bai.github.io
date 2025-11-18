@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Experimental Investigation of Car-Following Behavior on Single-Lane Signalized Roads"
 collection: publications
 category: manuscripts
