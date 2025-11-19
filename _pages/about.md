@@ -52,7 +52,7 @@ Research Highlight
 
   Through these extensions, the traditional CTM is modified to better capture the unique dynamics introduced by CAVs and DLs, thereby improving the simulation capability of CAV DL performance in mixed traffic environments.
   
-  Within this framework, the CAV DL configurations such as <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are examined with respect to the improvements of efficiency at the corridor levels. Selected numerical results are presented below.
+  Within this framework, the CAV DL configurations such as the <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are examined with respect to improvements in efficiency at the corridor level. Selected numerical results are presented below.
 
 - CAV DL numbers
 
