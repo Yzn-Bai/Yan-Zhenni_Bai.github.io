@@ -122,9 +122,8 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
     </div>
 
   <div style="text-align: center;">
-    <img src="images/episode_reward_PPO1_all.png" alt="TRB Conference Poster" style="max-width: 100%;">
-
-    <img src="images/episode_end_timestep_all.png" alt="TRB Conference Poster" style="max-width: 100%;">
+    <img src="images/episode_reward_PPO1_all.png" alt="First Image" style="width: 45%; display:inline-block;">
+    <img src="images/episode_end_timestep_all.png" alt="Second Image" style="width: 45%; display:inline-block;">
     </div>
 
   <div style="text-align: center;">
