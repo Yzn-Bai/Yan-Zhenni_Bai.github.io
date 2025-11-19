@@ -54,7 +54,7 @@ Optimization of DL Configuration for CAVs in Mixed Traffic Environments
   
   Within this framework, the CAV DL configurations such as the <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are examined with respect to improvements in efficiency and utility at the corridor level. Selected numerical results are presented below.
 
-- CAV DL numbers
+- CAV DL numbers (presence vs absence)
 
 <div style="text-align: center;">
   <img src="images/有无专用道的流量差.png" alt="First Image" style="width: 45%; display:inline-block;">
@@ -65,7 +65,7 @@ Optimization of DL Configuration for CAVs in Mixed Traffic Environments
   <img src="images/fig1c.png" alt="Image 1" style="width: 45%; display:inline-block;">
   </div>
 
-- Horizontal position of CAV DLs
+- Horizontal position of CAV DLs (with/without speed-limit differences)
 
 <div style="text-align: center;">
   <img src="images/无限速区别时，专用道设置在边缘时与设置在中间时的一小时流量差.png" alt="Image 1" style="width: 45%; display:inline-block;">
@@ -76,14 +76,14 @@ Optimization of DL Configuration for CAVs in Mixed Traffic Environments
   <img src="images/有限速时，专用道位置1-3流量差.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
 
-- CAV DL length
+- CAV DL length effects
 
 <div style="text-align: center;">
   <img src="images/error_line.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/d=1500&d=2000.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
   
-- Longitudinal position of CAV DLs
+- Longitudinal position of CAV DLs (placement vs incident location)
 
 <div style="text-align: center;">
   <img src="images/d=2000,p=0.3,1.png" alt="First Image" style="width: 45%; display:inline-block;">
@@ -95,10 +95,9 @@ Optimization of DL Configuration for CAVs in Mixed Traffic Environments
   <img src="images/d=2000,p=0.3,4.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
 
-*Related research findings have been reported at the 105th Transportation Research Board (TRB) Annual Metting*
+*Related findings have been presented as a poster at the 104th Transportation Research Board (TRB) Annual Meeting.*
 
 <img src="images/TRB海报.png" alt="TRB Conference Poster" style="max-width: 100%;">
-
 
 Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Traffic (working paper)
 ------
