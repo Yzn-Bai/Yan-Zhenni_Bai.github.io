@@ -5,7 +5,7 @@ collection: publications
 category: manuscripts
 date: 1 June, 2025
 venue: "Journal of Transportation Engineering, Part A: Systems"
-paperurl: "[10.1061/JTEPBS.TEENG-8885](https://doi.org/10.1061/JTEPBS.TEENG-8885)"
+paperurl: "https://doi.org/10.1061/JTEPBS.TEENG-8885"
 ---
 **Authors**：Jian Zhang, **Yan-Zhenni Bai**, Tie-Qiao Tang, Shaowei Yu, Xiyao Li, Liang Chen
 
