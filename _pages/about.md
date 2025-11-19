@@ -22,16 +22,20 @@ Research Interests
 
 Research Highlight
 ======
-  <span style="color:green; font-weight: bold;">Connected and automated vehicles (CAVs)</span> are expected to be a key component of future road traffic, enabling precise car-following, platooning, and vehicle-infrastructure cooperation. These capabilities can significantly enhance traffic efficiency and safety in mixed environments.
+  <span style="color:green; font-weight: bold;">Connected and automated vehicles (CAVs)</span> are anticipated to play a central role in future road transport systems, enabling precise car-following, cooperative platoon formation, and vehicle–infrastructure coordination. These capabilities have the potential to enhance the efficiency and stability of mixed traffic streams.
 
- <img src="images/3lane.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
+ <div style="text-align: center;">
+   <img src="images/3lane.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
+   </div>
   
-  <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore emerged as a crucial strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV potential. By forming homogeneous CAV streams with exclusive right-of-way, CAV DLs can increase roadway capacity, stabilize traffic flow, and create a safer operating environment with fewer disturbances from human driving, while also providing a platform for advanced control strategies and vehicle-infrastructure coordination.
+  <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore been proposed as a promising strategy to segregate CAVs from human-driven vehicles (HVs), mitigate traffic shockwaves, and better harness the capabilities of CAV technologies. By facilitating more homogeneous CAV streams with prioritized right-of-way, CAV DLs have the potential to increase effective roadway capacity, dampen traffic oscillations, and improve operational safety, while providing a controlled environment for deploying advanced control strategies and vehicle–infrastructure coordination schemes. The extent of these benefits, however, critically depends on lane management policies, CAV market penetration, and traffic demand.
 
-  <img src="images/3lane1dl.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
+  <div style="text-align: center;">
+    <img src="images/3lane1dl.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
+    </div>
   
-  In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost compared to full microscopic simulations. Its lane-level extension allows explicit representation of CAV DLs and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways.
-  
+  In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost. Lane-level extensions of the CTM enable an explicit representation of CAV DLs and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways under varying demand levels and market penetration rates.
+
 Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environments
 ------
 
@@ -101,7 +105,9 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
 
   However, in the real world CAV penetration is highly uncertain, traffic demand fluctuates across time and space, and infrastructure budgets are constrained. Under such conditions, naively deploying or statically managing CAV DLs can even waste capacity or worsen congestion if the number, position, or length of DLs is not matched to prevailing traffic states. This creates an urgent need for mesoscale models and intelligent control methods that can further adapt DL allocation in real time as demand and CAV penetration evolve.
 
-  <img src="images/CTM-RL研究场景(CTS版)(1).png" alt="TRB Conference Poster" style="max-width: 100%;">
+  <div style="text-align: center;">
+    <img src="images/CTM-RL研究场景(CTS版)(1).png" alt="TRB Conference Poster" style="max-width: 80%;">
+    </div>
 
   The capacity drop phenomenon is more extended which occurs when traffic density exceeds a critical threshold, leading to a reduction in flow capacity. And apply a simplified approach that captures the essential lane-changing behaviors while reducing computational complexity.
 
