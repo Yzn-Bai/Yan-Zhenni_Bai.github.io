@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my homepage 👋 I’m Yan-Zhenni Bai(白岩珍妮), an M.Eng. student in Transportation at Beijing University of Technology. My current research focuses on mixed traffic flow with **connected and autonomous vehicles**, **dedicated lane management**, and **reinforcement learning** for dynamic control and optimization. I am passionate about using quantitative methods and simulation to improve the efficiency and safety of highway and urban road networks.
+Hi! Welcome to my homepage 👋 I’m Yan-Zhenni Bai(白岩珍妮), an M.Eng. student in Transportation at Beijing University of Technology. My current research focuses on mixed traffic flow with **connected and autonomous vehicles**, **dedicated lane management**, and **reinforcement learning** for dynamic control and optimization.
 
 Education
 ======
