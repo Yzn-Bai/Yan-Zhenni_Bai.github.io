@@ -118,7 +118,7 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
   The control problem is framed as a <span style="color:blue; font-weight: bold;">Markov Decision Process (MDP)</span>, where the <span style="color:blue; font-weight: bold;">state space</span> incorporates key factors such as segment-level traffic density and CAV penetration rate, the <span style="color:blue; font-weight: bold;">action space</span> represents the number of DLs, and the <span style="color:blue; font-weight: bold;">reward function</span> is based on improvements in macroscopic traffic efficiency. To ensure training stability and efficiency, an <span style="color:blue; font-weight: bold;">early-stopping mechanism</span> is introduced, helping to balance the trade-off between training time and convergence.
 
   <div style="text-align: center;">
-    <img src="images/reward_plot_3D.png" alt="Image 1" style="width: 70%; display:inline-block;">
+    <img src="images/reward_plot_3D.png" alt="Image 1" style="width: 60%; display:inline-block;">
     </div>
 
   <div style="text-align: center;">
@@ -128,8 +128,8 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
     </div>
 
   <div style="text-align: center;">
-    <img src="images/line_reward_mean_std_shaded_ok.png" alt="First Image" style="width: 45%; display:inline-block;">
-    <img src="images/line_t_end_mean_std_shaded_ok.png" alt="Second Image" style="width: 45%; display:inline-block;">
+    <img src="images/line_reward_mean_std_shaded_ok_en.png" alt="First Image" style="width: 45%; display:inline-block;">
+    <img src="images/line_t_end_mean_std_shaded_ok_en.png" alt="Second Image" style="width: 45%; display:inline-block;">
     </div>
   
 Awards
