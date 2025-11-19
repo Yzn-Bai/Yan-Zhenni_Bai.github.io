@@ -36,7 +36,7 @@ Research Highlight
   
   In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost. Lane-level extensions of the CTM enable an explicit representation of CAV DLs and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways under varying demand levels and market penetration rates.
 
-- **Optimization of DL Configuration for CAVs in Mixed Traffic Environments**
+Optimization of DL Configuration for CAVs in Mixed Traffic Environments
 ------
 
   This study constructs a <span style="color:blue; font-weight: bold;">fundamental diagram model</span> that reflects both heterogeneous and homogeneous traffic flows by distinguishing among different car-following modes, characterized by varying desired headways and reaction times. 
