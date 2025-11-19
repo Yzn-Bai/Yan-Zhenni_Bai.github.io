@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me - Yan-Zhenni Bai"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -23,6 +23,8 @@ Research Interests
 Research Highlight
 ======
   <span style="color:green; font-weight: bold;">Connected and automated vehicles (CAVs)</span> are expected to be a key component of future road traffic, enabling precise car-following, platooning, and vehicle-infrastructure cooperation. These capabilities can significantly enhance traffic efficiency and safety in mixed environments.
+
+ <img src="images/3lane.jpg" alt="TRB Conference Poster" style="max-width: 100%;">
   
   <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore emerged as a crucial strategy to segregate CAVs from human-driven vehicles (HVs), mitigate shockwaves, and fully exploit CAV potential. By forming homogeneous CAV streams with exclusive right-of-way, CAV DLs can increase roadway capacity, stabilize traffic flow, and create a safer operating environment with fewer disturbances from human driving, while also providing a platform for advanced control strategies and vehicle-infrastructure coordination.
 
