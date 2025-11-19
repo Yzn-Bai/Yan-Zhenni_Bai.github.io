@@ -28,7 +28,7 @@ Research Highlight
    <img src="images/3lane.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
    </div>
   
-  <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore been proposed as a promising strategy to segregate CAVs from human-driven vehicles (HVs), mitigate traffic shockwaves, and better harness the capabilities of CAV technologies. By facilitating more homogeneous CAV streams with prioritized right-of-way, CAV DLs have the potential to increase effective roadway capacity, dampen traffic oscillations, and improve operational safety, while providing a controlled environment for deploying advanced control strategies and vehicle–infrastructure coordination schemes. The extent of these benefits, however, critically depends on lane management policies, CAV market penetration, and traffic demand.
+  <span style="color:green; font-weight: bold;">Dedicated lanes (DLs)</span> for CAVs have therefore been proposed as a promising strategy to segregate CAVs from human-driven vehicles (HVs), mitigate traffic shockwaves, and better harness the capabilities of CAV technologies. By facilitating more homogeneous CAV flows with prioritized right-of-way, CAV DLs have the potential to increase effective roadway capacity, dampen traffic oscillations, and improve operational safety, while providing a controlled environment for deploying advanced control strategies and vehicle–infrastructure coordination schemes. The extent of these benefits, however, critically depends on lane management policies, CAV market penetration, and traffic demand.
 
   <div style="text-align: center;">
     <img src="images/3lane1dl.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
@@ -36,23 +36,23 @@ Research Highlight
   
   In this context, the <span style="color:green; font-weight: bold;">cell transmission model (CTM)</span> provides an attractive mesoscale modeling tool, as it links both macroscopic and microscopic traffic dynamics. It captures key features such as capacity drop, shockwave propagation, and lane interactions while maintaining a lower computational cost. Lane-level extensions of the CTM enable an explicit representation of CAV DLs and mixed-traffic interactions, making it well suited for systematic evaluation and optimization of CAV DL deployment schemes on freeways under varying demand levels and market penetration rates.
 
-Optimization of Dedicated Lane Configuration for CAVs in Mixed Traffic Environments
+- **Optimization of DL Configuration for CAVs in Mixed Traffic Environments**
 ------
 
-  This study constructs a <span style="color:blue; font-weight: bold;">fundamental diagram model</span> that reflects both heterogeneous and homogeneous traffic flows by distinguishing between different car-following modes, with considerations for headway and reaction times. The model accurately captures the dynamic characteristics of mixed traffic flows by accounting for the differences between CAVs and HVs.
+  This study constructs a <span style="color:blue; font-weight: bold;">fundamental diagram model</span> that reflects both heterogeneous and homogeneous traffic flows by distinguishing among different car-following modes, characterized by varying desired headways and reaction times. 
+  
+  To simulate <span style="color:blue; font-weight: bold;">lane-changing behavior</span> for both vehicle types, the framework further embeds <span style="color:blue; font-weight: bold;">a logit model</span>, which takes into account the traffic occupancy rate and other latent factors influencing lane-changing decisions.
 
-  To simulate <span style="color:blue; font-weight: bold;">lane-changing behavior</span> for both vehicle types, this study also incorporates <span style="color:blue; font-weight: bold;">a logit model</span>, which takes into account the traffic occupancy rate and other latent factors influencing lane-changing decisions.
-
-  Additionally, the model considers the capacity drop phenomenon, where the flow rate decreases and impacts overall capacity when traffic density exceeds a critical threshold.
+  Additionally, the modeling framework explicitly incorporates the capacity drop phenomenon, where the flow rate decreases and impacts overall capacity when traffic density exceeds a critical threshold.
 
 <div style="text-align: center;">
   <img src="images/基本图2.png" alt="First Image" style="width: 45%; display:inline-block;">
   <img src="images/接收发送能力.png" alt="Second Image" style="width: 45%; display:inline-block;">
   </div>
 
-  Through these enhancements, the traditional CTM is modified to better capture the unique dynamics introduced by CAVs and DLs, thereby improving the simulation capability of CAV DL performance in mixed traffic environments.
+  Through these extensions, the traditional CTM is modified to better capture the unique dynamics introduced by CAVs and DLs, thereby improving the simulation capability of CAV DL performance in mixed traffic environments.
   
-  Well-designed CAV DL configurations such as <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are therefore crucial for realizing system-level benefits from CAV technologies, ensuring that the substantial investments in automation and connectivity translate into tangible improvements in efficiency, reliability, and safety at the corridor and network levels.
+  Within this framework, the CAV DL configurations such as <span style="color:blue; font-weight: bold;">number</span>, <span style="color:blue; font-weight: bold;">length</span>, and <span style="color:blue; font-weight: bold;">position</span> are examined with respect to the improvements of efficiency at the corridor levels. Selected numerical results are presented below.
 
 - CAV DL numbers
 
