@@ -28,7 +28,7 @@ author:
   # bio              : "Short biography for the left-hand sidebar"
   location         : "Beijing, China"
   employer         : "Beijing University of Technology"
-  uri              : "https://yzn-bai.github.io"
+  uri              : # "https://yzn-bai.github.io"
   email            : "baiyzn1006226966@gmail.com" 
 
   # Academic websites
