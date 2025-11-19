@@ -105,7 +105,7 @@ Reinforcement Learning-Based Dynamic Dedicated Lane Control for CAVs in Mixed Tr
   However, in the real world CAV penetration is highly uncertain, traffic demand fluctuates across time and space, and infrastructure budgets are constrained. Under such conditions, naively deploying or statically managing CAV DLs can even waste capacity or worsen congestion if the number, position, or length of DLs is not matched to prevailing traffic states. This creates an urgent need for intelligent control methods that can further adapt DL allocation in real time as demand and CAV penetration evolve.
 
   <div style="text-align: center;">
-    <img src="images/CTM-RL研究场景(CTS版)(1).png" alt="TRB Conference Poster" style="max-width: 80%;">
+    <img src="images/3lane_control_evironment.jpg" alt="TRB Conference Poster" style="max-width: 80%;">
     </div>
 
   To address this challenge, a reinforcement learning-based control framework is developed for the lane-level CTM, in which capacity drop effects at high densities are explicitly captured, while lane-changing behavior is represented through a simplified formulation to reduce computational complexity.
