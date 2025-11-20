@@ -18,7 +18,7 @@ Research Interests
 ======
 - Connected and autonomous vehicles and their integration into large-scale transportation systems
 - Data-driven modeling, generative AI and reinforcement learning for optimization, prediction and control in intelligent transportation systems
-- Mixed traffic flow modeling using traffic flow theory(car-following model, cellular au-tomata, cell-transmission model)
+- Mixed traffic flow modeling using traffic flow theory(car-following model, cellular automata, cell-transmission model)
 
 Research Highlight
 ======
